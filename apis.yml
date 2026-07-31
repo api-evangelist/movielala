@@ -1,7 +1,25 @@
 aid: movielala
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/movielala.png
 name: Movielala
-description: Movielala is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: MovieLaLa Inc was a San Francisco movie-discovery and social-video startup (500 Global portfolio,
+  founded 2012) best known for its GIF maker and a MovieLaLa Video Player. The only developer surface it ever
+  published was a client-side JavaScript embed API for that player (a drop-in replacement for the YouTube IFrame
+  API, loaded from assets-embed.movielala.com), documented in the github.com/movielala GitHub org. The company
+  is now defunct — its last public code activity was 2016 and the gif-maker repo redirects to gifmaker.io. The
+  movielala.com domain has lapsed and is currently repurposed by an unrelated third party (an Indonesian
+  gambling site), so it no longer represents the company and is not wired as a website here. No REST/OpenAPI,
+  AsyncAPI, or hosted API surface exists to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/movielala/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,20 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: 'Last public activity 2016; movielala.com domain lapsed and now serves an unrelated third-party
+  gambling site. Only surviving asset is the github.com/movielala org (client-side JS video-player embed API).'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Movies
+- Video
+- Entertainment
+- Media
+- Social
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
-- type: Website
-  url: https://movielala.com
+- type: GitHubOrganization
+  url: https://github.com/movielala
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
