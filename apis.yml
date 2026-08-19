@@ -30,7 +30,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-note: 'Last public activity 2016; movielala.com domain lapsed and now serves an unrelated third-party
   gambling site. Only surviving asset is the github.com/movielala org (client-side JS video-player embed API).'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
